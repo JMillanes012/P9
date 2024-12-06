@@ -5,12 +5,11 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function ColorSchemesExample() {
   return (
-    <Navbar bg="danger" variant="light">  {/* Use variant="dark" */}
+    <Navbar bg="success" variant="light">  {/* Use variant="dark" */}
       <Container>
-        <Navbar.Brand href="#home">My Personal Website</Navbar.Brand>
         <Nav className="me-auto">
           {/* Use NavLink instead of Link for active link styling */}
-          <Nav.Link as={NavLink} to="/home" end>Home</Nav.Link>
+          <Nav.Link as={NavLink} to="" end>Home</Nav.Link>
           <Nav.Link as={NavLink} to="/about">About</Nav.Link>
           <Nav.Link as={NavLink} to="/hobbies">Hobbies</Nav.Link>
           <Nav.Link as={NavLink} to="/contact">Contact</Nav.Link>
